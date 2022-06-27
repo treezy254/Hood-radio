@@ -1,0 +1,27 @@
+.main--main{
+    display: flex;
+}
+
+.main--img{
+    width: 40%;
+    height: 60%;
+}
+
+.main--content{
+    width: 50%;
+}
+
+.main--title{
+    height: 100px;
+    background-color: aqua;
+}
+
+.main--love{
+    height: 200px;
+    background-color: hotpink;
+}
+
+.main--air{
+    height: 200px;
+    background-color: brown;
+}
