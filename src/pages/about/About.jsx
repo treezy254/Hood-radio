@@ -1,13 +1,27 @@
 import React from 'react'
-import Footer from '../../components/footer/Footer'
-import Navbar from '../../components/navbar/Navbar'
+import Abt from './abt/Abt'
+import hosts from "./hosts"
 
 const About = () => {
+  const Drip = hosts.map(item => {
+    return(
+      <Abt 
+        img = {item.img}
+        name = {item.title}
+        abt = {item.description}
+      />
+    )
+  })
+
   return (
-    <div>
-        <Navbar />
-        <Abt />
-        <Footer />
+    <div className='about'>
+      <div className='about--header'>
+        <h1>The Full Story</h1>
+        <h2>About</h2>
+      </div>
+      <section>
+        {Drip}
+      </section>
     </div>
   )
 }

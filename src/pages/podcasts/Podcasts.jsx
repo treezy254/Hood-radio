@@ -1,14 +1,26 @@
 import React from 'react'
-import Navbar from '../../components/navbar/Navbar'
-import Footer from '../../components/footer/Footer'
 import Pod from './pods/Pod'
+import poder from "./poder"
 
 const Podcasts = () => {
+  const Great = poder.map(item => {
+    return(
+      <Pod 
+        img = {item.img}
+        title= {item.title}
+        data={item.data}
+      />
+    )
+  })
+
   return (
     <div>
-        <Navbar />
-        <Footer />
-        <Pod />
+      <div className='header'>
+        <h1>PODCAST</h1>
+      </div>
+      <section>
+      {Great}
+      </section>
     </div>
   )
 }

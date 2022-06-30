@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Abt = () => {
+const Abt = (props) => {
   return (
-    <div>Abt</div>
+    <div>
+      <img src={props.img} alt=""/>
+      <h2>{props.name}</h2>
+      <p>{props.abt}</p>
+    </div>
   )
 }
 
