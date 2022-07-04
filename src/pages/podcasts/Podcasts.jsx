@@ -1,6 +1,7 @@
 import React from 'react'
 import Pod from './pods/Pod'
 import poder from "./poder"
+import "./podcast.css"
 
 const Podcasts = () => {
   const Great = poder.map(item => {
@@ -14,9 +15,9 @@ const Podcasts = () => {
   })
 
   return (
-    <div>
+    <div className='podcast'>
       <div className='header'>
-        <h1>PODCAST</h1>
+        <h1>PODCASTS</h1>
       </div>
       <section>
       {Great}

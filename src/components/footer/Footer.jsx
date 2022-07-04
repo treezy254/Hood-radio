@@ -6,14 +6,13 @@ const Footer = () => {
     <div className='footer--main'>
         <div className='footer--form'>
             <form>
-                <input type="text" placeholder="Enter you Email" id="email"/><br/>
-                <button>Subscribe Now</button><br />
-                <span>Thanks for submitting</span>
+                <input type="text" placeholder="Enter your email here" id="a-little-toy"/><br/>
+                <button id="a-little-joy">Subscribe Now</button><br />
+                {/* <span>Thanks for submitting</span> */}
             </form>
         </div>
         <div className='footer--cont'>
-            <span>copyright &copy by YG-400 jr.
-            Proudly created by Sam</span>
+            <p>© 2022 by YG-400 Jr. Proudly created by Sam</p>
         </div>
     </div>
   )

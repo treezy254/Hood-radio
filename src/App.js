@@ -7,11 +7,12 @@ import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Podcasts from "./pages/podcasts/Podcasts";
+import Signup from "./pages/signup/Signup";
 
 function App() {
   return (
     <div className="App">
-        {/* <Navbar />
+        <Navbar />
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -21,8 +22,7 @@ function App() {
             <Route path="/login" element={<Login />}/>
           </Routes>
         </BrowserRouter>
-        <Footer /> */}
-        <Login/>
+        <Footer />
     </div>
   );
 }

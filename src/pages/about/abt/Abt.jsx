@@ -1,11 +1,15 @@
 import React from 'react'
+import "./abt.css"
 
 const Abt = (props) => {
   return (
-    <div>
-      <img src={props.img} alt=""/>
-      <h2>{props.name}</h2>
-      <p>{props.abt}</p>
+    <div className='abt'>
+      <img src={props.img} alt="" id="abt--img" />
+      <div className='props'>
+        <h2>{props.name}</h2>
+        <p>{props.abt}</p>
+      </div>
+      
     </div>
   )
 }

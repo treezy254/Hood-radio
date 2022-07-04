@@ -3,22 +3,34 @@ import "./main.css"
 
 const Home = () => {
   return (
-    <div className='main--main'>
-        <div className='main--img'>
-            <img src="./assets/orange.jpg" alt=""/>image
+    <div className='home'>
+
+        <div className='home--img'>
+            <img src="/assets/mic.webp" alt="" id="home--img" />
+            <div id='home--title'>
+                <h1 id="home--tt">HOOD<br/> RADIO</h1>
+                <p id="home--out">OUT NOW</p>
+                <p id="home--agh">ALL GOOD IN THE HOOD</p>
+                <button id="home--btn">LISTEN</button>
+            </div>
         </div>
+
+
         <div className='main--content'>
-            <div className='main--title'>
-                <h1>HOOD RADIO</h1>
-            </div>
+
             <div className='main--love'>
-                <h1>Love Radio</h1>
-                <p>Wanna reconcile with your love. Here is your chance to finally meet your Ex on air.</p>
-                <p>Every friday at 4pm on the BOYZ HUB with host Richelle Mbugua.</p>
+                <div id="love--f">
+                    <h1 id="love--tt">Love<br/>Radio</h1>
+                    <img src="/assets/love.webp" alt="" id="love--img"/>
+                </div>
+                <p id="love--p">Wanna reconcile with your love. Here is your chance<br/> to finally meet your Ex on air.<br/>
+                    Every friday at 4pm on the BOYZ HUB with host<br/> Richelle Mbugua.</p>
             </div>
+
             <div className='main--air'>
-                <h1>ON AIR</h1>
-                <p>Are you a local artist? Let us play your song. Dm us on instagram @hood_radio110</p>
+                    <h1 id="air--h">ON AIR</h1>
+                    <img src="/assets/disc.jpeg" alt="" id="air--img"/>
+                    <p>Are you a local artist? Let us play your song. <br/>Dm us on instagram @hood_radio110</p>
             </div>
         </div>
     </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Abt from './abt/Abt'
 import hosts from "./hosts"
+import "./about.css"
 
 const About = () => {
   const Drip = hosts.map(item => {

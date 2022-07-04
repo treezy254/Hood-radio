@@ -1,0 +1,25 @@
+.pod{
+    display: flex;
+}
+
+#img{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 0 0 30px 10px;
+}
+
+.data{
+    display: block;
+    margin: 0 0 0 15px;
+}
+
+#lst--btn{
+    height: 40px;
+    width: 200px;
+    color: #fff;
+    background-color: rgb(239, 70, 63);
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin: 240px 0 0 0;
+}
