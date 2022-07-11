@@ -10,6 +10,7 @@ const Podcasts = () => {
         img = {item.img}
         title= {item.title}
         data={item.data}
+        audio={item.sound}
       />
     )
   })

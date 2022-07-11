@@ -7,7 +7,6 @@ import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Podcasts from "./pages/podcasts/Podcasts";
-import Signup from "./pages/signup/Signup";
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/podcast" element={<Podcasts/>}/>
+            <Route path="/podcasts" element={<Podcasts/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/contact" element={<Contact/>}/>
             <Route path="/login" element={<Login />}/>
